@@ -1,6 +1,6 @@
 speed = int(input("Velocidade do carro em km/h: "))
 if speed > 110 and speed < 400:
-    print("Você foi multado! HAHA")
+    print("Você foi multado! HAHAHA")
     fee = int(5*(speed - 110))
     print("Tua multa é de R$ %.2f reais" %fee)
 if speed < 0:
