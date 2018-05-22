@@ -2,7 +2,7 @@ minutos = int(input("Minutos utilizados: "))
 conta = 0
 
 if minutos < 0:
-    print("Digite uma quantia válida!")
+    print("Digite uma quantia válida")
 if minutos >= 0 and minutos < 200:
     conta += .2*minutos
     print("Utilizou menos de 200 minutos, conta é de R$ %.2f reais." %conta)
